@@ -11,8 +11,8 @@ import androidx.activity.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import com.nntsl.bootcounter.core.broadcast.BootEventReceiver
-import com.nntsl.bootcounter.core.broadcast.NotificationPublisher
+import com.nntsl.bootcounter.core.receiver.BootEventReceiver
+import com.nntsl.bootcounter.core.receiver.NotificationPublisher
 import com.nntsl.bootcounter.core.domain.model.BootEvent
 import com.nntsl.bootcounter.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
